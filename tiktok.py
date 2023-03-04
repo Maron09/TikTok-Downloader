@@ -85,7 +85,7 @@ while True:
 
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 # print(soup.prettify())
-liked_videos = soup.find_all('div', class_='tiktok-yz6ijl-DivWrapper')
+liked_videos = soup.find_all('div', class_='class of the div closest to the a tag of your videos')
 print(len(liked_videos))
 
 for index, video in enumerate(liked_videos):
